@@ -1,37 +1,14 @@
 {
     "configurations": [
         {
-            "name": "windows-gcc-x64",
-            "includePath": [
-                "d:/cpp learning/**"
-            ],
-            "compilerPath": "gcc",
-            "intelliSenseMode": "windows-gcc-x64",
-            "compilerArgs": [
-                ""
-            ],
-            "compilerPathInCppPropertiesJson": "gcc",
-            "mergeConfigurations": false,
-            "recursiveIncludes": {},
-            "browse": {
-                "limitSymbolsToIncludedHeaders": true
-            },
-            "cppStandard": "c++20"
-        },
-        {
-            "name": "gcc",
+            "name": "WSL-GCC",
             "includePath": [
                 "${workspaceFolder}/**"
             ],
-            "defines": [
-                "_DEBUG",
-                "UNICODE",
-                "_UNICODE"
-            ],
-            "intelliSenseMode": "windows-gcc-x64",
-            "cppStandard": "c++23",
+            "compilerPath": "/usr/bin/g++",
             "cStandard": "c23",
-            "compilerPath": "D:/MSYS2/ucrt64/bin/g++.exe"
+            "cppStandard": "c++23",
+            "intelliSenseMode": "linux-gcc"
         }
     ],
     "version": 4
