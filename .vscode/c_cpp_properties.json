@@ -8,7 +8,7 @@
             "compilerPath": "/usr/bin/g++",
             "cStandard": "c23",
             "cppStandard": "c++23",
-            "intelliSenseMode": "linux-gcc"
+            "intelliSenseMode": "gcc-x64"
         }
     ],
     "version": 4
